@@ -2,3 +2,8 @@ body {
     font-family: 'Special Elite' ;
     padding:  20px 80px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
