@@ -19,6 +19,6 @@ export const removeItem = (cartItems, itemToRemove) => {
         : item
     );
   } else {
-    return cartItems.filter(item => item.id != itemToRemove.id);
+    return cartItems.filter(item => item.id !== itemToRemove.id);
   }
 };

@@ -5,7 +5,7 @@ import "./collection-preview.styles.scss";
 const CollectionPreview = ({ title, items }) => (
   <div className="collection-preview">
     <h1 className="tile">{title.toUpperCase()}</h1>
-    <div className="preview">
+    <div className="items">
       {items
         .filter((item, idx) => idx < 4)
         .map(item => (
