@@ -4,7 +4,8 @@ import { Route } from "react-router-dom";
 import CollectionsOverview from "../../components/collections-overview/collections-overview.component";
 import CollectionPage from "../collection/collection.component";
 
-import "./shop.styles.scss";
+//Not needed
+//import "./shop.styles.jsx";
 
 const ShopPage = ({ match }) => (
   <div className="shop-page">
